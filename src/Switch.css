@@ -1,0 +1,59 @@
+.toggle-container {
+    width: 50px;
+    height: 25px;
+    background-color: #333;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff5722, #ff9800); /* Sunset gradient */
+    position: relative;
+    transition: background 0.3s ease;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+    background: linear-gradient(45deg, #2196f3, #00bcd4); /* Night gradient */
+}
+
+.toggle-ball {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Sun Icon */
+.sun {
+    background-image: url('../public/images/sun.jpg'); /* Sun icon */
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* Moon Icon (when checkbox is checked) */
+.toggle-checkbox:checked + .toggle-label .toggle-ball {
+    transform: translateX(25px);
+    background-image: url('../public/images/moon.jpg'); /* Moon icon */
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

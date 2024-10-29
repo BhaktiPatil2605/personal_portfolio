@@ -1,0 +1,189 @@
+{
+    "basic_info": {
+      "name": "Bhakti",
+      "stroke": "Patil",
+      "titles": ["I'm Software Developer", "I'm Web Developer", "I'm Full Stack Developer", "I'm Front End Developer","I'm Back End Developer" ],
+      "white_image": "../images/bg_white.png",
+      "black_image":"../images/bg_black.jpg"
+    },
+    "about_info":{
+        "about_image":"images/about3.png",
+        "about_content": "I’m Bhakti Patil, a web developer with over two years of experience in creating dynamic websites and applications. I specialize in PHP, CodeIgniter, and React, focusing on responsive and user-friendly solutions. I’m passionate about turning ideas into reality and constantly improving my skills to deliver quality digital experiences.",
+       "new_line": "Let's connect and build something amazing together! 😊;"
+    },
+    "project_info":[
+        {
+          "title": "TEXTUTILS",
+          "description": "Texto is the utitlity to modified your text the way you want!.",
+          "images": [
+            "images/project1.png"
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": "devicon-react-original fs-3",
+              "name": "react"
+            },
+            {
+              "class": "devicon-bootstrap-plain fs-3",
+              "name": "bootsrtap"
+            }
+          ]
+        },
+        {
+          "title": "EchoNews",
+          "description": "Get Daily News Free & Discover the world’s stories with ease!.",
+          "images": [
+            "images/project2.png"
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": "devicon-react-original fs-3",
+              "name": "react"
+            },
+            {
+              "class": "devicon-bootstrap-plain fs-3",
+              "name": "bootsrtap"
+            }
+          ]
+        },
+        {
+          "title": "iNoteBook",
+          "description": "Solution for managing personal notes with unmatched security!.",
+          "images": [
+            "images/project3.png"
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": "devicon-react-original fs-3",
+              "name": "react"
+            },
+            {
+              "class": "devicon-nodejs-plain fs-3",
+              "name": "Node"
+            },
+            {
+              "class": "devicon-mongodb-plain fs-3",
+              "name": "mongodb"
+            },
+            {
+              "class": "devicon-bootstrap-plain fs-3",
+              "name": "bootsrtap"
+            }
+          ]
+        },
+        {
+          "title": "Weather Horizon",
+          "description": "The ultimate weather app for precise forecasts!.",
+          "images": [
+            "images/project4.png"
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": "devicon-react-original fs-3",
+              "name": "react"
+            },
+            {
+              "class": "devicon-bootstrap-plain fs-3",
+              "name": "bootsrtap"
+            }
+          ]
+        }
+
+
+    
+  ],
+  "skills":[
+    {
+      "name":"HTML 5",
+      "icon":"devicon-html5-plain"
+    },
+    {
+      "name":"CSS 3",
+      "icon":"devicon-css3-plain"
+    },
+    {
+      "name":"BOOTSTRAP",
+      "icon":"devicon-bootstrap-plain"
+    },
+    {
+      "name":"JAVASCRIPT",
+      "icon":"devicon-javascript-plain"
+    },
+    {
+      "name":"JQUERY",
+      "icon":"devicon-jquery-plain"
+    },
+    {
+      "name":"PHP",
+      "icon":"devicon-php-plain"
+    },
+    {
+      "name":"CODEIGNITER-3",
+      "icon":"devicon-codeigniter-plain"
+    },
+    {
+      "name":"LARAVEL",
+      "icon":"devicon-laravel-plain"
+    },
+    {
+      "name":"REACT",
+      "icon":"devicon-react-original"
+    },
+    {
+      "name":"NODE",
+      "icon":"devicon-nodejs-plain"
+    },
+    {
+      "name":"MYSQL",
+      "icon":"devicon-mysql-original"
+    },
+    {
+      "name":"MONGODB",
+      "icon":"devicon-mongodb-plain"
+    },
+    {
+      "name":"GIT",
+      "icon":"devicon-git-plain"
+    },
+    {
+      "name":"POSTMAN",
+      "icon":"devicon-postman-plain"
+    }
+  ],
+  "contact":{
+      "email":"bhaktipatil2605@gmail.com",
+      "phone":"9029077277"
+    },
+  "experience":[
+    {
+      "fade_in":"fade-in-left",
+      "ex_lang": "devicon-php-plain fa-2x",
+      "ex_year": "2022 - Present",
+      "designation": "Full Stack Developer",
+      "company": "Aniruddha Telemetry System",
+      "ex_technologies": [
+        {
+          "name": "PHP"
+        },
+        {
+          "name": "CODEIGNITER-3"
+        },
+        {
+          "name":"LARAVEL"
+        },
+        {
+          "name":"JAVASCRIPT"
+        },
+        {
+          "name":"BOOTSTRAP"
+        }
+      ]
+    }
+  ]
+  
+
+}
